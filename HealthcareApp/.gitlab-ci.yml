@@ -4,7 +4,7 @@ stages:
   - build
   - deploy
 variables:
-  PROJECT_ID: "your-gcp-project-id"
+  PROJECT_ID: "project-5f31727c-d8b4-4d10-bc3"
   REGION: "asia-south1"
   SERVICE_NAME: "demoapp"
   REPOSITORY: "demo-repo"
