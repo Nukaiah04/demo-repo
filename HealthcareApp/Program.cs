@@ -1,8 +1,7 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", () => "CI/CD Working Successfully in GCP 🚀 - FEATURE VERSION");
-
+app.MapGet("/devops", () => "DevOps Practice Endpoint 🚀");
 app.MapGet("/health", () => "Healthy");
 
 // 🔥 New Feature Endpoint (Only in feature branch)
