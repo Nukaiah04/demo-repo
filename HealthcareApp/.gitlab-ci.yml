@@ -17,14 +17,14 @@ build:
   stage: build
   image: google/cloud-sdk:latest
   script:
-    - docker build -t asia-south2-docker.pkg.dev/project-5f31727c-d8b4-4d10-bc3/docker-repo .
-    - docker push asia-south2-docker.pkg.dev/project-5f31727c-d8b4-4d10-bc3/docker-repo
+    - docker build -t asia-south1-docker.pkg.dev/project-5f31727c-d8b4-4d10-bc3/demo-repo
+    - docker push asia-south1-docker.pkg.dev/project-5f31727c-d8b4-4d10-bc3/demo-repo
 deploy:
   stage: deploy
   image: google/cloud-sdk:latest
   script:
     - gcloud run deploy $SERVICE_NAME \
-        --image asia-south2-docker.pkg.dev/project-5f31727c-d8b4-4d10-bc3/docker-repo \
+        --image asia-south1-docker.pkg.dev/project-5f31727c-d8b4-4d10-bc3/demo-repo \
         --region $REGION \
         --platform managed \
         --allow-unauthenticated
