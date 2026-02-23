@@ -7,7 +7,7 @@ variables:
   PROJECT_ID: "your-gcp-project-id"
   REGION: "asia-south1"
   SERVICE_NAME: "demoapp"
-  REPOSITORY: "dotnet-repo"
+  REPOSITORY: "demo-repo"
 before_script:
   - echo $GCLOUD_SERVICE_KEY | base64 -d > gcloud-key.json
   - gcloud auth activate-service-account --key-file gcloud-key.json
