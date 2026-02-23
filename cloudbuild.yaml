@@ -7,3 +7,12 @@ steps:
 
 images:
 - 'gcr.io/project-5f31727c-d8b4-4d10-bc3/demo-repo'
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/project-5f31727c-d8b4-4d10-bc3/demo-repo', '.']
+
+images:
+  - 'gcr.io//project-5f31727c-d8b4-4d10-bc3/demo-repo'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
