@@ -31,3 +31,4 @@ C:\Users\bluec\HealthcareApp\HealthcareApp\obj\Debug\net10.0\refint\HealthcareAp
 C:\Users\bluec\HealthcareApp\HealthcareApp\obj\Debug\net10.0\HealthcareApp.pdb
 C:\Users\bluec\HealthcareApp\HealthcareApp\obj\Debug\net10.0\HealthcareApp.genruntimeconfig.cache
 C:\Users\bluec\HealthcareApp\HealthcareApp\obj\Debug\net10.0\ref\HealthcareApp.dll
+C:\Users\bluec\HealthcareApp\HealthcareApp\obj\Debug\net10.0\HealthcareApp.sourcelink.json
