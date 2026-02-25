@@ -3,6 +3,5 @@ steps:
   args: ['build', '-t', 'gcr.io/$PROJECT_ID/demo-app', '.']
 images:
 - 'gcr.io/$PROJECT_ID/demo-app'
-serviceAccount: projects/YOUR_PROJECT_ID/serviceAccounts/YOUR_SERVICE_ACCOUNT_EMAIL
 options:
   logging: CLOUD_LOGGING_ONLY
